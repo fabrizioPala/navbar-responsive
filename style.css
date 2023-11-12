@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:rgb(24, 23, 23)
+}
+.menu,
+a,
+button,
+input,
+.dropdown{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 300;
+font-size: 14px;
+color: white;
+text-decoration: none;
+}
+.navbar{
+    font-size: 2em;
+    
+}
+.menuitem{
+
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+.menu li a{
+    transition:all .3s ease;
+}
+.menu a:hover{
+    color:rgb(153, 150, 145)
+}
+button{
+    padding: 9px 25px;
+    background:#886969;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+.search{
+    
+    margin-left: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px rgb(34, 21, 21);
+  
+}
+.button{
+    display:flex;
+    align-items: center;
+    height: 30px;
+    margin-left: 4px;
+    background-color: transparent;
+    color: green;
+    border: solid green;
+   
+}
+.disabled{
+   
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+}
+.dropdown{
+    background: transparent;
+    border:none;
+    font-size: 20px;
+}
+
+.menu-icon{
+    font-size: 24px;
+    display:none;
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        color: green;
+    }
+}
+
+
+
+
+
+
